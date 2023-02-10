@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '0c5be3a0-930d-4424-91b9-ce9d46e32b6d'
   imageRepository: 'ramyaswatidotnetfrontendtobackendonazurecontainera'
   containerRegistry: 'ramyaswaticonatinerreg.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/src/Store.InventoryApi/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/src/Store/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
